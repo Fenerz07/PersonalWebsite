@@ -1,12 +1,18 @@
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Home from "../components/home";
 
-export default function Home() {
+export default function All() {
   return (
     <>
-      <Header/>
       <div>
-        <h1>Portfolio</h1>
+        <video autoPlay loop muted className="absolute top-0 left-0 w-full h-full object-cover">
+          <source src="/videos/lights.mp4" type="video/mp4" />
+        </video>
+        <Header/>
+        <div>
+          <Home/>
+        </div>
       </div>
       <Footer/>
     </>

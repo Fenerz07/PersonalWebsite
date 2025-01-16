@@ -14,7 +14,7 @@ export default function Header() {
     };
 
     return (
-        <header className="py-10">
+        <header className="py-10 relative z-20">
             <nav className="flex justify-center space-x-10 list-none font-bold font-sans text-xl">
                 {['Acceuil', 'Bio', 'Projets', 'CV', 'Contact'].map((text, index) => (
                     <li
