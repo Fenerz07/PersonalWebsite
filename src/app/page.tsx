@@ -1,6 +1,7 @@
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Home from "../components/home";
+import Bio from "../components/bio";
 
 export default function All() {
   return (
@@ -12,6 +13,7 @@ export default function All() {
         <Header/>
         <div>
           <Home/>
+          <Bio/>
         </div>
       </div>
       <Footer/>
