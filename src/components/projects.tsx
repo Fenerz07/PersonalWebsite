@@ -23,8 +23,8 @@ export default function Projects() {
   
           <a href="https://github.com/Fenerz07/phpSocialNetwork-" className="relative group overflow-hidden rounded-lg shadow-lg">
             <Image 
-              src="/images/social-network.svg" 
-              alt="Project 2" 
+              src="/images/social-network.svg"
+              alt="Project 2"
               className="w-full h-48 scale-50 group-hover:scale-90 transition-all duration-300"
               width={400}
               height={400}

@@ -8,7 +8,6 @@ import Projects from "../components/projects";
 export default function All() {
   return (
     <>
-      <div>
         <Background/>
         <Header/>
         <div>
@@ -16,8 +15,7 @@ export default function All() {
           <Bio/>
           <Projects/>
         </div>
-      </div>
-      <Footer/>
+        <Footer/>
     </>
   );
 }
