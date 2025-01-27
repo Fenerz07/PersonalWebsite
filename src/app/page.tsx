@@ -5,6 +5,7 @@ import Bio from "../components/bio";
 import Background from "../components/background";
 import Projects from "../components/projects";
 import Experience from "../components/experience";
+import ContactMe from "../components/contactme";
 
 export default function All() {
   return (
@@ -16,6 +17,7 @@ export default function All() {
           <Bio/>
           <Projects/>
           <Experience/>
+          <ContactMe/>
         </div>
         <Footer/>
     </>

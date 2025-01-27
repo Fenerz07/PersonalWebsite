@@ -6,7 +6,7 @@ export default function Experience(){
             <div className='text-center relative mt-80 mb-10'>
               <h1 className='text-6xl font-bold font-sans'>MON EXPERIENCE</h1>
             </div>
-            <div className='mr-20'>
+            <div className='mr-20 mb-56'>
                 <div className='flex text-center justify-center'>
                     <div className='flex'>
                         <div>
