@@ -4,7 +4,7 @@ export default function Background(){
     return(
         <>
             <Image 
-                src="/images/ygjty18.jpg" 
+                src="/images/background.jpg" 
                 alt="background-image" 
                 className="background-image left-0 absolute z-0"
                 width={1920}

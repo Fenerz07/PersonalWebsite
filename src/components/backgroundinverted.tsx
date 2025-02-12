@@ -4,7 +4,7 @@ export default function BackgroundInverted() {
     return (
         <>
             <Image 
-                src="/images/ygjty18.jpg" 
+                src="/images/background.jpg" 
                 alt="background-image-inverted" 
                 className="background-image left-0 absolute z-0 transform rotate-180"
                 width={1920}
