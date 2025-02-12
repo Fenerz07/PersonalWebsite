@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Experience(){
     return(
         <>
-            <div className='text-center relative mt-80 mb-10'>
+            <div className='text-center relative pt-40 mb-20' id='experience'>
               <h1 className='text-6xl font-bold font-sans'>MON EXPERIENCE</h1>
             </div>
             <div className='mr-20 mb-56'>
@@ -22,11 +22,11 @@ export default function Experience(){
                         </div>
                         <div className='mt-28'>
                             <h1 className='text-2xl font-bold font-sans relative'>
-                                Restaurants du coeur
-                                <span className='absolute left-0 top-5 w-60 h-3 bg-gradient-to-r from-pink-500 to-blue-500' style={{ zIndex: -1 }}></span>
+                                Les Restaurants du Coeur
+                                <span className='absolute left-0 top-5 w-72 h-3 bg-gradient-to-r from-pink-500 to-blue-500' style={{ zIndex: -1 }}></span>
                             </h1>
                             <p className='text-xl font-sans'>Juin 2024 - Août 2024</p>
-                            <p className='text-xl font-sans'>Developpeur Web FullStack</p>
+                            <p className='text-xl font-sans'>Développeur Web FullStack</p>
                             <div className='flex items-center justify-center'>
                                 <Image
                                     src="/images/bxl-typescript.svg"

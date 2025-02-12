@@ -3,8 +3,8 @@ import Image from 'next/image';
 export default function Projects() {
   return (
     <>
-      <div className='text-center mt-20 mb-10'>
-        <h1 className='text-4xl font-bold'>MES PROJETS</h1>
+      <div className='text-center pt-60 mb-10' id='projets'>
+        <h1 className='text-6xl font-bold'>MES PROJETS</h1>
       </div>
 
       <div className="grid grid-cols-2 grid-rows-2 sm:grid-cols-4 lg:grid-cols-6 gap-12 px-10">

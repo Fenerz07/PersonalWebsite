@@ -5,7 +5,7 @@ export default function ContactMe(){
     return(
         <>
             <BackgroundInverted/>
-            <div className="mt-80 mb-96">
+            <div className="mt-80 mb-96" id='contact'>
 
                 <div className='text-center relative mb-10'>
                 <h1 className='text-6xl font-bold font-sans'>CONTACT</h1>

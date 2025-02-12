@@ -14,9 +14,9 @@ export default function Header() {
     };
 
     return (
-        <header className="py-10 relative z-20">
+        <header className="py-10 relative z-20" id="accueil">
             <nav className="flex justify-center space-x-10 list-none font-bold font-sans text-xl">
-                {['Acceuil', 'Bio', 'Projets', 'CV', 'Contact'].map((text, index) => (
+                {['Accueil', 'Bio', 'Projets', 'Experience', 'Contact'].map((text, index) => (
                     <li
                         key={index}
                         className={`transition duration-300 ${hoveredIndex != index ? hoveredIndex !== null ? 'brightness-50' : 'hover:brightness-50': ''}`}
