@@ -6,9 +6,9 @@ export default function BackgroundInverted() {
             <Image 
                 src="/images/background.jpg" 
                 alt="background-image-inverted" 
-                className="background-image left-0 absolute z-0 transform rotate-180"
-                width={1920}
-                height={1080}
+                className="background-image right-0 absolute z-0 transform rotate-180"
+                width={5000}
+                height={5000}
                 quality={100}
                 priority
             />
