@@ -11,6 +11,7 @@ export default function BackgroundInverted() {
                 height={5000}
                 quality={100}
                 priority
+                sizes="100vw"
             />
         </>
     );
