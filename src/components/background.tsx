@@ -6,7 +6,7 @@ export default function Background(){
             <Image 
                 src="/images/background.jpg" 
                 alt="background-image" 
-                className="background-image left-0 absolute z-0"
+                className="hidden md:block background-image left-0 absolute z-0"
                 width={5000}
                 height={5000}
                 quality={100}

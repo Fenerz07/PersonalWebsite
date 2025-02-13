@@ -41,8 +41,9 @@ export default function Carousel() {
                 <motion.div
                     className="flex"
                     initial={{ x: 0 }}
-                    animate={{ x: `-${currentIndex * 25}%` }}
+                    animate={{ x: `-${currentIndex * 25.2}%` }}
                     transition={{ ease: "easeInOut", duration: 0.5 }}
+                    style={{ justifyContent: 'center' }}
                 >
                     {[...logos, ...logos].map((logo, index) => (
                         <div key={index} className="min-w-[70px] mx-2 flex justify-center">

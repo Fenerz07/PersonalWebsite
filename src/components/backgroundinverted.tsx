@@ -6,7 +6,7 @@ export default function BackgroundInverted() {
             <Image 
                 src="/images/background.jpg" 
                 alt="background-image-inverted" 
-                className="background-image right-0 absolute z-0 transform rotate-180"
+                className="hidden md:block background-image right-0 absolute z-0 transform rotate-180"
                 width={5000}
                 height={5000}
                 quality={100}

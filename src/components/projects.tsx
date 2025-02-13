@@ -7,7 +7,7 @@ export default function Projects() {
         <h1 className='text-6xl font-bold'>MES PROJETS</h1>
       </div>
 
-      <div className="grid grid-cols-2 grid-rows-2 sm:grid-cols-4 lg:grid-cols-6 gap-12 px-10">
+      <div className="grid grid-cols-2 grid-rows-2 sm:grid-cols-2 lg:grid-cols-3 gap-12 lg:px-96 px-10 md:mb-60 mb-20">
         
         <a href="https://github.com/Fenerz07/Tournoi-Pokemon-Java" target="_blank" rel="noopener noreferrer" className="relative group overflow-hidden shadow-lg border border-gray-200 rounded-lg">
           <Image 
@@ -69,7 +69,7 @@ export default function Projects() {
           </div>
         </a>
 
-        <a href="https://github.com/Fenerz07/viteNews" target="_blank" rel="noopener noreferrer" className="relative group overflow-hidden shadow-lg border border-gray-200 rounded-lg">
+        <a href="https://github.com/Fenerz07/viteNews" target="_blank" rel="noopener noreferrer" className="lg:col-start-1 relative group overflow-hidden shadow-lg border border-gray-200 rounded-lg">
           <Image 
             src="/images/news.svg" 
             alt="Affichage de News en ViteTS" 
