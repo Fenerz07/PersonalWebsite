@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio d'Hugo Matyla
 
-## Getting Started
+Bienvenue sur le portfolio de Hugo Matyla, développeur d'applications et de sites web. Ce projet présente mes compétences, mes projets et mon parcours professionnel.
 
-First, run the development server:
+## Table des matières
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Aperçu](#aperçu)
+- [Technologies utilisées](#technologies-utilisées)
+- [Installation](#installation)
+- [Utilisation](#utilisation)
+- [Projets](#projets)
+- [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Aperçu
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Ce portfolio est conçu pour mettre en valeur mes compétences en développement web en toute simplicité et optimisation. Il comprend une section sur mon parcours, une galerie de projets et un carrousel de technologies que j'ai utilisées.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies utilisées
 
-## Learn More
+- **Next.js** : Framework React pour le rendu côté serveur et la génération de sites statiques.
+- **React** : Bibliothèque JavaScript pour la création d'interfaces utilisateur.
+- **Tailwind CSS** : Framework CSS utilitaire pour un design rapide et réactif.
+- **Framer Motion** : Bibliothèque pour les animations React.
+- **TypeScript** : Superset de JavaScript qui ajoute des types statiques.
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Pour installer et exécuter ce projet localement, suivez ces étapes :
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clonez le dépôt :
+    ```bash
+    git clone https://github.com/Fenerz07/PersonalWebsite
+    ```
+2. Accédez au répertoire du projet :
+    ```bash
+    cd portfolio0125
+    ```
+3. Installez les dépendances :
+    ```bash
+    npm install
+    ```
+4. Démarrez le serveur de développement :
+    ```bash
+    npm run dev
+    ```
 
-## Deploy on Vercel
+## Utilisation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Une fois le serveur de développement démarré, ouvrez votre navigateur et accédez à `http://localhost:3000` pour voir le portfolio en action.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Projets
+
+Voici quelques-uns des projets présentés dans ce portfolio :
+
+- **[Tournoi Pokemon](https://github.com/Fenerz07/Tournoi-Pokemon-Java)** : Jeu de simulation de combats Pokemon en Java.
+- **[Réseau Social](https://github.com/Fenerz07/phpSocialNetwork-)** : Réseau social complet avec base de données en PHP.
+- **[Traqueur de Films](https://github.com/Fenerz07/MovieTracker)** : Application de suivi de films utilisant l'API TMDB en Next.js.
+- **[Puissance 4](https://github.com/Fenerz07/Puissance4-C)** : Jeu de Puissance 4 en console à 2 joueurs en C.
+- **[Gestion de News](https://github.com/Fenerz07/viteNews)** : Application de gestion et d'affichage de news avec l'API Hacker News en Vite.
+
+Merci de visiter mon portfolio !
